@@ -7,7 +7,9 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+    @@all
   end
+  
 
   def self.clear_all
     @@all.clear
