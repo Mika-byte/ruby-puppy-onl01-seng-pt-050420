@@ -8,7 +8,7 @@ class Dog
     @name = name
     @@all << self
     @@all
-    @@save << self
+    
   end
   
 
