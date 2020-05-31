@@ -27,7 +27,5 @@ def save
   @@all << self
   
 end
-def dogs 
-    @dogs 
-  end 
+
 end
